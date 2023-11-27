@@ -18,7 +18,7 @@
       }"
     >
       <SwiperSlide>
-        <HomeSliderSlide-1/>
+        <HomeSliderSlide-1 @childEvent="handleChildEvent"/>
       </SwiperSlide>
       <SwiperSlide>Slide 2</SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
