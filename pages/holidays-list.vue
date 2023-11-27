@@ -1,7 +1,5 @@
 <template>
-    <div>
-        Holidays List
-    </div>
+    <HolidaysList/>
 </template>
 
 <script setup>
