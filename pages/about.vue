@@ -1,9 +1,8 @@
 <template>
-    <div>
-        About Page
-    </div>
+    <AboutGreetings/>
+    <AboutMission/>
 </template>
-
+  
 <script setup>
 definePageMeta({
     layout: 'default'
