@@ -1,4 +1,5 @@
 <template>
+    <ContainersHeader/>
     <main>
         <slot/>
     </main>
