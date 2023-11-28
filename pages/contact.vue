@@ -1,7 +1,5 @@
 <template>
-    <div>
-        Contact Page
-    </div>
+    <ContactMain />
 </template>
 
 <script setup>
