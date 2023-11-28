@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="flex flex-none items-center gap-x-4">
-              <NuxtLink :to="holiday.href" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
+              <NuxtLink :to="`/holidays/${holiday.href}`" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
                 View holiday
                 <span class="sr-only">, {{ holiday.name }}</span>
               </NuxtLink>
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="flex flex-none items-center gap-x-4">
-              <NuxtLink :to="graduate.href" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
+              <NuxtLink :to="`/holidays/${graduate.href}`" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
                 View graduate
                 <span class="sr-only">, {{ graduate.name }}</span>
               </NuxtLink>
@@ -80,49 +80,49 @@ const holidays = [
   {
     id: 1,
     name: 'Täze ýyl',
-    href: '#',
+    href: '1',
     dueDate: '1-nji ýanwar',
     dueDateTime: '2023-03-17T00:00Z',
   },
   {
     id: 2,
     name: 'Halkara zenanlar güni',
-    href: '#',
+    href: '2',
     dueDate: '8-nji mart',
     dueDateTime: '2023-05-05T00:00Z',
   },
   {
     id: 3,
     name: 'Milli bahar baýramy',
-    href: '#',
+    href: '3',
     dueDate: '21-22-nji mart',
     dueDateTime: '2023-05-25T00:00Z',
   },
   {
     id: 4,
     name: 'Türkmenistanyň Konstitusiýasynyň we Türkmenistanyň Döwlet baýdagynyň güni',
-    href: '#',
+    href: '4',
     dueDate: '18-nji maý',
     dueDateTime: '2023-06-07T00:00Z',
   },
   {
     id: 5,
     name: 'Türkmenistanyň Garaşsyzlyk güni',
-    href: '#',
+    href: '5',
     dueDate: '27-nji sentýabr',
     dueDateTime: '2023-06-10T00:00Z',
   },
   {
     id: 6,
     name: 'Hatyra güni',
-    href: '#',
+    href: '6',
     dueDate: '6-njy oktýabr',
     dueDateTime: '2023-06-10T00:00Z',
   },
   {
     id: 7,
     name: 'Halkara Bitaraplyk güni',
-    href: '#',
+    href: '7',
     dueDate: '12-nji dekabr',
     dueDateTime: '2023-06-10T00:00Z',
   },

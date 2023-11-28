@@ -15,6 +15,7 @@
             <div class="hidden lg:flex lg:gap-x-12">
                 <NuxtLink to="/about" class="text-sm font-semibold leading-6 text-gray-900">Biz Barada</NuxtLink>
                 <NuxtLink to="/holidays" class="text-sm font-semibold leading-6 text-gray-900">Baýramçylyklaryň Sanawy</NuxtLink>
+                <NuxtLink to="/news" class="text-sm font-semibold leading-6 text-gray-900">Habarlar</NuxtLink>
                 <NuxtLink to="/contact" class="text-sm font-semibold leading-6 text-gray-900">Habarlaşmak</NuxtLink>
             </div>
         </nav>
