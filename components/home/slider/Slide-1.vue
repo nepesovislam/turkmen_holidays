@@ -12,7 +12,7 @@
                         Medeni baýlygyň we milli mirasyň syrlaryny açyp görkezýän bu ajaýyp ýurdumyzyň täsin we däp bolan baýramçylyklaryndan gyzykly syýahat ediň.    
                     </p>
                     <div class="mt-4 flex text-left ">
-                        <button @click="scrollDown()" class="text-sm font-semibold leading-6 text-gray-900">Dowam Etmek<span aria-hidden="true">→</span></button>
+                        <button class="text-sm font-semibold leading-6 text-gray-900">Dowam Etmek<span class="ml-0.5" aria-hidden="true">→</span></button>
                     </div>
                 </div>
                 <img src="images/banner.jpeg" alt="" class="aspect-[6/5] w-full max-w-lg rounded-2xl object-cover lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-10" />
