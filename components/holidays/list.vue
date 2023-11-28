@@ -8,63 +8,13 @@
         <h2 class="text-lg font-semibold leading-6 text-gray-900">
           Türkmenistanyň Zähmet kodeksiniň 81-nji maddasynyň birinji böleginiň rejelenen görnüşine laýyklykda, şu ählihalk baýramçylyk we hatyra günlerinde kärhanalarda, guramalarda we edaralarda işlenilmeýär: 
         </h2>
-        <ul role="list" class="divide-y divide-gray-100">
-          <li v-for="holiday in holidays" :key="holiday.id" class="flex items-center justify-between gap-x-6 py-5">
-            <div class="min-w-0">
-              <div class="flex items-start gap-x-3">
-                <p class="text-md font-semibold leading-6 text-gray-900">{{ holiday.name }}</p>
-              </div>
-              <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
-                <p>Bellenilýän senesi</p>
-                <svg viewBox="0 0 2 2" class="h-1 w-1 fill-current">
-                  <circle cx="1" cy="1" r="1" />
-                </svg>
-                <strong>
-                  <time :datetime="holiday.dueDateTime">
-                    {{ holiday.dueDate }}
-                  </time>
-                </strong>
-              </div>
-            </div>
-            <div class="flex flex-none items-center gap-x-4">
-              <NuxtLink :to="`/holidays/${holiday.href}`" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
-                View holiday
-                <span class="sr-only">, {{ holiday.name }}</span>
-              </NuxtLink>
-            </div>
-          </li>
-        </ul>
+        <HolidaysCard :holidays="holidays"/>
       </div>
       <div class="mx-auto mt-10 border-t border-gray-200 pt-10 sm:mt-10 lg:mx-0 lg:max-w-none">
         <h2 class="text-lg font-semibold leading-6 text-gray-900">
           Türkmenistanyň Zähmet kodeksiniň 81-nji maddasynyň birinji böleginiň rejelenen görnüşine laýyklykda, şu ählihalk baýramçylyk we hatyra günlerinde kärhanalarda, guramalarda we edaralarda işlenilmeýär: 
         </h2>
-        <ul role="list" class="divide-y divide-gray-100">
-          <li v-for="graduate in graduations" :key="graduate.id" class="flex items-center justify-between gap-x-6 py-5">
-            <div class="min-w-0">
-              <div class="flex items-start gap-x-3">
-                <p class="text-md font-semibold leading-6 text-gray-900">{{ graduate.name }}</p>
-              </div>
-              <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
-                <p>Bellenilýän senesi</p>
-                <svg viewBox="0 0 2 2" class="h-1 w-1 fill-current">
-                  <circle cx="1" cy="1" r="1" />
-                </svg>
-                <strong>
-                  <time :datetime="graduate.dueDateTime">
-                    {{ graduate.dueDate }}
-                  </time>
-                </strong>
-              </div>
-            </div>
-            <div class="flex flex-none items-center gap-x-4">
-              <NuxtLink :to="`/holidays/${graduate.href}`" class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">
-                View graduate
-                <span class="sr-only">, {{ graduate.name }}</span>
-              </NuxtLink>
-            </div>
-          </li>
-        </ul>
+        <HolidaysCard :holidays="graduations"/>
       </div>
       <div class="mx-auto mt-10 border-t border-gray-200 pt-10 sm:mt-10 lg:mx-0 lg:max-w-none">
         <h2 class="text-lg font-semibold leading-6 text-gray-900">

@@ -15,6 +15,7 @@
         </h3>
     </article>
 </template>
+
 <script setup>
 const { news } = defineProps([`news`])
 </script>
