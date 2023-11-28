@@ -22,5 +22,6 @@ export default defineNuxtConfig({
     '@tailwindcss/typography',
     'nuxt-headlessui',
     'nuxt-swiper',
+    'nuxt-phosphor-icons',
   ]
 })
