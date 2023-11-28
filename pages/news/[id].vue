@@ -1,5 +1,3 @@
 <template>
-    <div>
-        News By ID
-    </div>
+    <NewsSingle />
 </template>
