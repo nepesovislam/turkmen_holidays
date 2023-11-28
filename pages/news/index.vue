@@ -1,7 +1,12 @@
 <template>
-    <section class="py-16 sm:py-24">
+    <section class="py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto mt-4 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div class="mx-auto max-w-3xl lg:mx-0">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    Habarlar
+                </h2>
+            </div>
+            <div class="mx-auto border-t border-gray-200 mt-4 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 pt-10 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <NewsCardMain :news="news"/>
             </div>
         </div>
