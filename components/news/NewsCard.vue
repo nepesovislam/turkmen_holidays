@@ -4,7 +4,7 @@
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
         <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
   
-        <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+        <div class="flex flex-wrap items-center gap-y-1 text-sm leading-6 text-gray-300">
             <time :datetime="post.datetime" class="mr-8">{{ post.date }}</time>
         </div>
         <h3 class="mt-3 text-lg font-semibold text-left leading-6 text-white">
