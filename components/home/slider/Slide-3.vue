@@ -6,7 +6,7 @@
                 <p class="mt-2 text-lg leading-8 text-gray-600">Свежие события, традиции и радости: праздники, культура Туркменистана.</p>
             </div>
             <div class="mx-auto mt-4 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <NewsCardMain :news="news"/>
+                <NewsCard :news="news"/>
             </div>
         </div>
     </section>
