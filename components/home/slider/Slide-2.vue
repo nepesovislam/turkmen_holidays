@@ -17,7 +17,7 @@
 
                 <div class="mt-2">
                     <div class="mt-4 flex justify-center">
-                        <NuxtLink to="#" class="text-sm font-medium text-gray-900">Doly Okamak<span class="ml-0.5" aria-hidden="true">→</span></NuxtLink>
+                        <NuxtLink :to="`/holidays/${7}`" class="text-sm font-medium text-gray-900">Doly Okamak<span class="ml-0.5" aria-hidden="true">→</span></NuxtLink>
                     </div>
                 </div>
             </div>
