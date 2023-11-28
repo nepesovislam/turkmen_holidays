@@ -19,6 +19,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
+    '@tailwindcss/typography',
     'nuxt-headlessui',
     'nuxt-swiper',
   ]
