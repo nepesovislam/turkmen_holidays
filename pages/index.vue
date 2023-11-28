@@ -4,6 +4,6 @@
   
 <script setup>
 definePageMeta({
-    layout: 'slider'
+    layout: 'default'
 })
 </script>
