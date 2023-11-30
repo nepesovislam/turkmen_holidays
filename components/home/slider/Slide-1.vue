@@ -1,6 +1,5 @@
 <template>
     <div class="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-8">
-        <div class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96" aria-hidden="true" />
         <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                 <h1 class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 text-left sm:text-6xl lg:col-span-2 xl:col-auto">
@@ -21,10 +20,3 @@
         <div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
     </div>
 </template>
-
-<script setup>
-const scrollDown = () => {
-    window.scrollBy(0, window.innerHeight);
-    console.log('scrolled')
-};
-</script>

@@ -3,7 +3,15 @@
 </template>
 
 <script setup>
-definePageMeta({
-    layout: 'default'
-})
+    useHead({
+        title: 'Dynç alyş, baýramçylyk we hatyra günleri | Türkmenistanyň Milli Baýramçylyklary',
+        meta:[
+            { name: 'description', content: 'Services Ussat Birleshik'}
+        ]
+    })
+
+    definePageMeta({
+        layout: 'default'
+    })
+
 </script>
